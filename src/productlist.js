@@ -26,7 +26,7 @@ export default function ProductList() {
 
   const renderItem = ({ item, index }) => {
 
-    const backgroundColor = index === selected ? "#f9c2ff" : "#00ffff";
+  const backgroundColor = index === selected ? "#f9c2ff" : "#00ffff";
 
     return(  
 

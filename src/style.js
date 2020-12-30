@@ -27,9 +27,9 @@ const styles = StyleSheet.create({
     },
 
     title: {
-
-      fontSize: 24,
-
+      marginTop:200,
+      textAlign: 'center',
+      marginVertical: 8,
     },
     buttom:{
         textAlign: 'center',
@@ -49,11 +49,30 @@ const styles = StyleSheet.create({
       marginTop:-200,
       
     },
+    //故事字體
+    story_text:{
+      padding:20,
+      textAlign:"center",
+      justifyContent:"center",
+      fontSize:20,
+    },
+    //圖片
+    img主線:{
+      width:'90%',
+      height:"50%",
+      alignSelf:"center",
+      marginTop:0,
+      resizeMode:"center"
+    },
     page:{
       flex: 1, 
       alignItems: 'center', 
       justifyContent: 'center',
-    }
+    },
+    fixToText: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+    },
 
   
 
