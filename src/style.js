@@ -64,6 +64,14 @@ const styles = StyleSheet.create({
       marginTop:0,
       resizeMode:"center"
     },
+    placeholder:{
+      height: 40, 
+      borderColor: 'black', 
+      borderWidth: 1 ,
+      width:200,
+      alignSelf:'center',
+      marginTop:20
+    },
     page:{
       flex: 1, 
       alignItems: 'center', 
